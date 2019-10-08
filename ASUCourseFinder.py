@@ -10,7 +10,7 @@ class ASUCourses:
         self.num = num
 
     def find_class(self):
-        url = 'https://webapp4.asu.edu/catalog/myclasslistresults?t=2197&s=%s&n=%s&hon=F&promod=F&e=open&page=1' % (self.code, self.num)
+        url = 'https://webapp4.asu.edu/catalog/myclasslistresults?t=2201&s=%s&n=%s&hon=F&promod=F&e=open&page=1' % (self.code, self.num)
 
         headers = {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36'}
 
